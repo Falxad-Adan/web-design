@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li a:active{
+    color: rgb(187, 55, 143);
+}
+ul li section{
+    background-color: rgb(39, 128, 128);
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    position: fixed;
+    padding-top: 20px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(133, 75, 75);
+
+}
+.header h1{
+    font-size: 40px;
+   
+}
+
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color:wheat;
+}
+.icon{
+font-size: 40px;
+padding: 6px 10px;
+}
+span{
+    color: rgb(16, 240, 46);
+}
+.main1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.main1 img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+.title{
+    margin-top: 100px;
+
+}
+.title p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.title h2{
+    color: rgb(206, 88, 88);
+    font-size: 50px;
+}
+
+.title button{
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    color:black;
+    background-color: rgb(133, 75, 75);
+    font-size: 40px;
+}
+
+.grid{
+    background-color: gray;
+}
+.grid h5{
+    font-size: 30px;
+    text-align: center;
+}
+.item{
+    background-color:rgb(252, 252, 252);
+}
+.grid-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+}
+.item img{
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+    width: 100%;
+    height: 250px;
+}
+.price{
+    font-size: 20px;
+    display: flex;
+}
+.price h6 {
+    margin-top: 10px;
+    margin-left: 10px;
+   color: rgb(32, 46, 167);
+    font-size: 25px;
+}
+.price button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: rgb(252, 233, 233);
+}
+.grid1{
+    background-color: rgb(133, 118, 118);
+}
+.grid1 h5{
+    font-size: 30px;
+    text-align: center;
+}
+.item2{
+    background-color:rgb(243, 237, 237);
+}
+.grid-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+}
+.item2 img{
+    width: 100%;
+    height: 250px;
+}
+.item2 p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.price2{
+    font-size: 20px;
+    display: flex;
+}
+.price2 h6 {
+    margin-top: 10px;
+    margin-left: 20px;
+   color: rgb(89, 90, 56);
+    font-size: 25px;
+}
+.price2 button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(133, 75, 75);
+}
+.rate{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 400px 400px 400px ;
+    justify-content: center;
+}
+.part1{
+    border: 4px solid;
+    background-color:white;
+}
+.profile img{
+border-radius: 120px;
+height: 100px;
+width: 100px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.star{
+    color: green;
+}
+.profile{
+    
+    display: flex;
+    
+}
+.staf{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(31, 31, 34);
+}
+
+.about-title h5{
+margin: 15px;
+font-size: 60px;
+text-align: center;
+color: aqua;
+}
+.about-title p{
+    margin-top: 10px;
+    margin-left: 30px;
+  line-height: 20px;
+    }
+.about{
+    display: flex;
+    text-align: center;
+}
+.about img{
+    margin-left: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+   
+}
+
+footer{
+    background: #21212b;
+    padding: 60px 60px;
+}
+
+.main{
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    justify-content: center;
+}
+
+.tag h1{
+    color: white;
+    margin: 25px 0 35px 0;
+}
+
+.tag p{
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #aeaeae;
+    font-size: 19px;
+}
+
+.tag i{
+    margin: 0 15px;
+}
+
+.tag ul{
+    list-style: none;
+    color: #aeaeae;
+}
+
+
+.tag ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tag ul li:hover{
+    color: white;
+}
+.cpy{
+    text-align: center;
+    background-color: blue;
+}
+.cpy h1{
+    font-size: 90px;
+}
+.tijabo{
+    text-align: center;
+}
+.tijabo h1{
+    font-size: 30px;
+    color: green;
+}
+.tijabo p{
+    font-size: 20px;
+}
